@@ -34,3 +34,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.2.4
 - Added screenshot for highlight
+
+### 1.2.5
+- fixing repo

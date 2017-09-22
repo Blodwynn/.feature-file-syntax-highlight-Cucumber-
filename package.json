@@ -2,7 +2,7 @@
     "name": "featurehighlight",
     "displayName": "Feature Syntax Highlight and Snippets (Cucumber)",
     "description": ".feature Syntax Highlight and Snippets (Cucumber)",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "publisher": "Blodwynn",
     "engines": {
         "vscode": "^1.16.0"
@@ -10,6 +10,11 @@
     "categories": [
         "Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-.git"
+    },
+    "icon": "images/cucumber.png",
     "contributes": {
         "languages": [{
             "id": "feature",
