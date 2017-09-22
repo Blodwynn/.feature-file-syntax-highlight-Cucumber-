@@ -2,7 +2,7 @@
     "Feature": {
         "prefix": "ff",
         "body": [
-            "@tag-placeholder1 @tag-placeholder2",
+            "@tagPlaceholder1 @tagPlaceholder2",
             "Feature: $1",
             "  Scenario: $2",
             "    Given $3",

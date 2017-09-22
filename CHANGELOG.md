@@ -37,3 +37,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.2.5
 - fixing repo
+
+### 1.2.6
+- changed generated tags to be 1 word, so it can be selected with a double click
