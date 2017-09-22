@@ -1,0 +1,60 @@
+{
+    "Feature": {
+        "prefix": "ff",
+        "body": [
+            "@tag-placeholder1 @tag-placeholder2",
+            "Feature: $1",
+            "  Scenario: $2",
+            "    Given $3",
+            "     When $4",
+            "     Then $0",
+            "",
+            ""
+        ]
+    },
+    "Scenario": {
+        "prefix": "fs",
+        "body": [
+            "  Scenario: $1",
+            "    Given $2",
+            "     When $3",
+            "     Then $0",
+            "",
+            ""
+        ]
+    },
+    "GivenWhenThenBlock": {
+        "prefix": "fb",
+        "body": [
+            "    Given $2",
+            "     When $3",
+            "     Then $0",
+            "",
+            ""
+        ]
+    },
+    "Given": {
+        "prefix": "fg",
+        "body": [
+            "Given $0"
+        ]
+    },
+    "When": {
+        "prefix": "fw",
+        "body": [
+            "When $0"
+        ]
+    },
+    "Then": {
+        "prefix": "ft",
+        "body": [
+            "Then $0"
+        ]
+    },
+    "And": {
+        "prefix": "fa",
+        "body": [
+            "And $0"
+        ]
+    }
+}

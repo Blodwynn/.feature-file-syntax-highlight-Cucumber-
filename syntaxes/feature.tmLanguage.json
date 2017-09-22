@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "feature",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.operator.feature",
+				"match": "(Scenario|Feature)"
+			},
+			{
+				"name": "support.type.primitive.js",
+				"match": "(Given|When|Then|And)"
+			},
+			{
+				"name": "keyword.control.flow.js",
+				"match": "(@[a-zA-Z0-9-]+)"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.feature",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.feature",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.feature"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "featurehighlight",
+    "displayName": "Feature Syntax Highlight and Snippets (Cucumber)",
+    "description": ".feature Syntax Highlight and Snippets (Cucumber)",
+    "version": "1.2.4",
+    "publisher": "Blodwynn",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "feature",
+            "aliases": ["feature", "feature"],
+            "extensions": [".feature"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "feature",
+            "scopeName": "source.feature",
+            "path": "./syntaxes/feature.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "feature",
+            "path": "./snippets/feature.json"
+        }]
+    }
+}
