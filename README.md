@@ -12,6 +12,7 @@ This extension provides syntax highlight and snippets for .feature files to enha
   - **When**
   - **Then**
   - **And**
+  - **But**
   - **@tags**
 
 ![Syntax Highlight screenshot](images/highlight.png "Syntax Highlight")
