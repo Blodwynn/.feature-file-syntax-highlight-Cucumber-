@@ -43,3 +43,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.3.0
 - added **But** highlight
+
+### 1.3.1
+- added github repo to description
