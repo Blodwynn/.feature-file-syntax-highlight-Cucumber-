@@ -2,10 +2,10 @@
     "name": "featurehighlight",
     "displayName": "Feature Syntax Highlight and Snippets (Cucumber)",
     "description": ".feature Syntax Highlight and Snippets (Cucumber)",
-    "version": "1.3.1",
+    "version": "1.4.1",
     "publisher": "Blodwynn",
     "engines": {
-        "vscode": "^1.16.0"
+        "vscode": "^1.15.0"
     },
     "categories": [
         "Languages"

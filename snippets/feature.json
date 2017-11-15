@@ -23,6 +23,21 @@
             ""
         ]
     },
+    "ScenarioOutline": {
+        "prefix": "fso",
+        "body": [
+            "  Scenario Outline: $1",
+            "    Given <tag1>$2",
+            "     When <tag2>$3",
+            "     Then <tag3>$4",
+            "",
+            "     Examples:",
+            "       | tag1$2 | tag2$3 | tag3$4 |",
+            "       |      |      |      |",
+            "       |      |      |      |",
+            ""
+        ]
+    },
     "GivenWhenThenBlock": {
         "prefix": "fb",
         "body": [

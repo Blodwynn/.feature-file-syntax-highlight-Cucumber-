@@ -46,3 +46,10 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.3.1
 - added github repo to description
+
+### 1.4.0
+- added syntax highlight for **Scenario Outline**, **Examples** and **placeholders**
+- added snippet for **Scenario Outline** with **Examples**
+
+### 1.4.1
+- changed highlighting to work in more themes

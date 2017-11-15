@@ -11,18 +11,28 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.operator.feature",
-				"match": "(Scenario|Feature)"
-			},
-			{
-				"name": "support.type.primitive.js",
-				"match": "(Given|When|Then|And|But)"
-			},
-			{
-				"name": "keyword.control.flow.js",
-				"match": "(@[a-zA-Z0-9-]+)"
-			}]
+			"patterns": [
+				{
+					"name": "support.function",
+					"match": "(Scenario( Outline)?|Feature|Examples)"
+				},
+				{
+					"name": "support.class",
+					"match": "(Given|When|Then|And|But)"
+				},
+				{
+					"name": "keyword.control.flow.js",
+					"match": "(@[a-zA-Z0-9-]+)"
+				},
+				{
+					"name": "keyword.operator.feature",
+					"match": "\\|"
+				},
+				{
+					"name": "variable.language",
+					"match": "<[^>]*>"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.feature",

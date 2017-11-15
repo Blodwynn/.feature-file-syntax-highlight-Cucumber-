@@ -6,7 +6,7 @@ This extension provides syntax highlight and snippets for .feature files to enha
 
 ### Functionality
 - Highlights keywords including:
-  - **Scenario**
+  - **Scenario /Outline**
   - **Feature**
   - **Given**
   - **When**
@@ -14,12 +14,14 @@ This extension provides syntax highlight and snippets for .feature files to enha
   - **And**
   - **But**
   - **@tags**
+  - **Examples** and **|**
 
 ![Syntax Highlight screenshot](images/highlight.png "Syntax Highlight")
 
 - Snippets for fast .feature file editing
   - **ff**: **F**eature file skeleton including a Scenario
-  - **fs**: **S**cenario skeletion with Given, When and Then
+  - **fs**: **S**cenario skeleton with Given, When and Then
+  - **fso**: **S**cenario **O**utline skeleton with Given, When, Then and Examples
   - **fb**: Given-When-Then **B**lock
   - **fg**: **G**iven
   - **fw**: **W**hen
@@ -32,7 +34,7 @@ https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-.git
 
 
 ### Remarks
-This description will be more updated to be more useful in a bit :)
+This description will be updated to be more and more useful :)
 
 ## Author
 Roland Orosz (Blodwynn)
