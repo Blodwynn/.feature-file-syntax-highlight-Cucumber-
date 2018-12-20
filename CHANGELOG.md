@@ -9,10 +9,10 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ## 1.1.0
 - Differentiated colors for
-  - @tags
-  - Scenario, Feature
-  - Given, When, Then, And
-  - Double quoted elements
+    - @tags
+    - Scenario, Feature
+    - Given, When, Then, And
+    - Double quoted elements
 
 ## 1.2.0
 - Added snippets for feature files:
@@ -53,3 +53,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.4.1
 - changed highlighting to work in more themes
+
+## 1.5.0
+- adding highlight for `Example`, `Example Outline`, `Background` and `#comments`

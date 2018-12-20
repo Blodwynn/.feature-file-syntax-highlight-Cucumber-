@@ -7,13 +7,16 @@ This extension provides syntax highlight and snippets for .feature files to enha
 ### Functionality
 - Highlights keywords including:
   - **Scenario /Outline**
+  - **Example /Outline**
   - **Feature**
+  - **Background**
   - **Given**
   - **When**
   - **Then**
   - **And**
   - **But**
   - **@tags**
+  - **#comments**
   - **Examples** and **|**
 
 ![Syntax Highlight screenshot](images/highlight.png "Syntax Highlight")

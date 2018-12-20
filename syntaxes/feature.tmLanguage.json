@@ -3,6 +3,9 @@
 	"name": "feature",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -14,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "support.function",
-					"match": "(Scenario( Outline)?|Feature|Examples)"
+					"match": "(Scenario( Outline| Template)?|Feature|Examples|Example|Background)"
 				},
 				{
 					"name": "support.class",
@@ -42,6 +45,15 @@
 				{
 					"name": "constant.character.escape.feature",
 					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment",
+			"patterns": [
+				{
+					"name": "comment",
+					"match": "#.*"
 				}
 			]
 		}
