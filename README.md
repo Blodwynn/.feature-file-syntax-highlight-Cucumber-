@@ -23,8 +23,11 @@ This extension provides syntax highlight and snippets for .feature files to enha
 
 - Snippets for fast .feature file editing
   - **ff**: **F**eature file skeleton including a Scenario
+  - **ffb**: **F**eature file skeleton including a **B**ackground and Scenario
   - **fs**: **S**cenario skeleton with Given, When and Then
+  - **fe**: **E**xample skeleton with Given, When and Then
   - **fso**: **S**cenario **O**utline skeleton with Given, When, Then and Examples
+  - **fst**: **S**cenario **T**emplate skeleton with Given, When, Then and Examples
   - **fb**: Given-When-Then **B**lock
   - **fg**: **G**iven
   - **fw**: **W**hen

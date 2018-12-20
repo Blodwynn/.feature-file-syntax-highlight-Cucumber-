@@ -23,6 +23,17 @@
             ""
         ]
     },
+    "Example": {
+        "prefix": "fe",
+        "body": [
+            "  Example: $1",
+            "    Given $2",
+            "     When $3",
+            "     Then $0",
+            "",
+            ""
+        ]
+    },
     "ScenarioOutline": {
         "prefix": "fso",
         "body": [
@@ -35,6 +46,37 @@
             "       | tag1$2 | tag2$3 | tag3$4 |",
             "       |      |      |      |",
             "       |      |      |      |",
+            ""
+        ]
+    },
+    "ScenarioTemplate": {
+        "prefix": "fst",
+        "body": [
+            "  Scenario Template: $1",
+            "    Given <tag1>$2",
+            "     When <tag2>$3",
+            "     Then <tag3>$4",
+            "",
+            "     Examples:",
+            "       | tag1$2 | tag2$3 | tag3$4 |",
+            "       |      |      |      |",
+            "       |      |      |      |",
+            ""
+        ]
+    },
+    "FeatureBackground": {
+        "prefix": "ffb",
+        "body": [
+            "@tagPlaceholder1 @tagPlaceholder2",
+            "Feature: $1",
+            "  Background:",
+            "    Given $2",
+            "",
+            "  Scenario: $3",
+            "    Given $4",
+            "     When $5",
+            "     Then $0",
+            "",
             ""
         ]
     },

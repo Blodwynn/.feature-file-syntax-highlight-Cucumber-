@@ -54,5 +54,8 @@ All notable changes to the "feature" extension will be documented in this file.
 ### 1.4.1
 - changed highlighting to work in more themes
 
-## 1.5.0
-- adding highlight for `Example`, `Example Outline`, `Background` and `#comments`
+### 1.5.0
+- adding highlight for `Example`, `Scenario Template`, `Background` and `#comments`
+
+### 1.6.0
+- adding snippets for `Example`, `Scenario Template` and `Background`
