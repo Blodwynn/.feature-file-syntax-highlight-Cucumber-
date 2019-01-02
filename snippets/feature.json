@@ -12,6 +12,22 @@
             ""
         ]
     },
+    "FeatureBackground": {
+        "prefix": "ffb",
+        "body": [
+            "@tagPlaceholder1 @tagPlaceholder2",
+            "Feature: $1",
+            "  Background:",
+            "    Given $2",
+            "",
+            "  Scenario: $3",
+            "    Given $4",
+            "     When $5",
+            "     Then $0",
+            "",
+            ""
+        ]
+    },
     "Scenario": {
         "prefix": "fs",
         "body": [
@@ -61,22 +77,6 @@
             "       | tag1$2 | tag2$3 | tag3$4 |",
             "       |      |      |      |",
             "       |      |      |      |",
-            ""
-        ]
-    },
-    "FeatureBackground": {
-        "prefix": "ffb",
-        "body": [
-            "@tagPlaceholder1 @tagPlaceholder2",
-            "Feature: $1",
-            "  Background:",
-            "    Given $2",
-            "",
-            "  Scenario: $3",
-            "    Given $4",
-            "     When $5",
-            "     Then $0",
-            "",
             ""
         ]
     },
