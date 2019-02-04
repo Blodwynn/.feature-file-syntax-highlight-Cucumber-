@@ -25,7 +25,7 @@
 				},
 				{
 					"name": "keyword.control.flow.js",
-					"match": "(@[a-zA-Z0-9-_]+)"
+					"match": "(@[a-zA-Z0-9_-]+)"
 				},
 				{
 					"name": "keyword.operator.feature",
