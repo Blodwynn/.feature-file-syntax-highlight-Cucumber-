@@ -2,7 +2,7 @@
     "name": "featurehighlight",
     "displayName": "Feature Syntax Highlight and Snippets (Cucumber/Gherkin)",
     "description": "Syntax highlight and snippets",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "publisher": "Blodwynn",
     "engines": {
         "vscode": "^1.15.0"

@@ -62,3 +62,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.6.1
 - fixing comment highlight to only match line comments as it should (no in-line comments)
+
+### 1.6.2
+- adding correct highlight to underscored `@tags`
