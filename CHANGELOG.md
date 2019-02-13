@@ -65,3 +65,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.6.2 - 1.6.3
 - adding correct highlight to underscored `@tags`
+
+### 1.7.0
+- adding highlight for `Examples` headings and content

@@ -1,4 +1,4 @@
-@web-shop @checkout @asdf_stuff
+@web-shop @checkout @holla_holla_get_dolla
 Feature: Shopping Cart works as it should
   Scenario: Visible when the date is in the future
     Given I am on the Checkout page

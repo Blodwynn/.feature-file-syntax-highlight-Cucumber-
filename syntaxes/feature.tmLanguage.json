@@ -16,8 +16,30 @@
 		"keywords": {
 			"patterns": [
 				{
+					"name": "string.quoted",
+					"begin": "(Examples)",
+					"end": "^\\s*\\n\\s*$",
+					"beginCaptures": {
+						"0": {
+							"name": "support.function"
+						}
+					},
+					"patterns": [
+						{
+							"name": "variable.language",
+							"begin": "(:)\\s*\\n",
+							"end": "\\n",
+							"beginCaptures": {
+								"0": {
+									"name": "support.function"
+								}
+							}
+						}
+					]
+				},
+				{
 					"name": "support.function",
-					"match": "(Scenario( Outline| Template)?|Feature|Examples|Example|Background)"
+					"match": "(Scenario( Outline| Template)?|Feature|Example|Background)"
 				},
 				{
 					"name": "support.class",

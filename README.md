@@ -17,7 +17,7 @@ This extension provides syntax highlight and snippets for .feature files to enha
   - **But**
   - **@tags**
   - **#comments**
-  - **Examples** and **|**
+  - **Examples**
 
 ![Syntax Highlight screenshot](images/highlight.png "Syntax Highlight")
 
@@ -37,12 +37,4 @@ This extension provides syntax highlight and snippets for .feature files to enha
 ### Repository
 If you feel like contributing or just learning from the code, feel free at:
 https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-.git
-
-
-### Remarks
-This description will be updated to be more and more useful :)
-
-## Author
-Roland Orosz (Blodwynn)
-blodwynn@hotmail.com
 
