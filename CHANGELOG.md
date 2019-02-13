@@ -63,8 +63,11 @@ All notable changes to the "feature" extension will be documented in this file.
 ### 1.6.1
 - fixing comment highlight to only match line comments as it should (no in-line comments)
 
-### 1.6.2 - 1.6.3
-- adding correct highlight to underscored `@tags`
+### 1.6.3
+- adding correct highlight to underscored `@tags` [ISSUE](https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-/issues/1)
+
+### 1.6.4
+- adding correct character for line comments [ISSUE](https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-/issues/2)
 
 ### 1.7.0
 - adding highlight for `Examples` headings and content
