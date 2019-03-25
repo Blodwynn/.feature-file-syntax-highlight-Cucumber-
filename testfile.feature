@@ -11,12 +11,22 @@ Feature: Shopping Cart works as it should
      Then I can see "assurance" message component
       And I cant see "error" message component
 
-Scenario Outline: eating
+Scenario Outline: eating with examples
   Given there are <start> cucumbers
   When I eat <eat> cucumbers
   Then I should have <left> cucumbers
 
   Examples:
+    | start | eat | left |
+    |  12   |  5  |  7   |
+    |  20   |  5  |  15  |
+
+Scenario Outline: eating with scenarios
+  Given there are <start> cucumbers
+  When I eat <eat> cucumbers
+  Then I should have <left> cucumbers
+
+  Scenarios:
     | start | eat | left |
     |  12   |  5  |  7   |
     |  20   |  5  |  15  |

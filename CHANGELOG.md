@@ -71,3 +71,6 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.7.0
 - adding highlight for `Examples` headings and content
+
+### 1.7.1
+- adding highlight for `Scenarios` headings and content [ISSUE](https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-/issues/3)

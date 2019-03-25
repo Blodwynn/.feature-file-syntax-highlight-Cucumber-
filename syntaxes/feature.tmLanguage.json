@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "string.quoted",
-					"begin": "(Examples)",
+					"begin": "(Examples|Scenarios)",
 					"end": "^\\s*\\n\\s*$",
 					"beginCaptures": {
 						"0": {
