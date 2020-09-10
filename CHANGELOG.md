@@ -74,3 +74,7 @@ All notable changes to the "feature" extension will be documented in this file.
 
 ### 1.7.1
 - adding highlight for `Scenarios` headings and content [ISSUE](https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-/issues/3)
+
+### 1.8.0
+- adding / fixing highlight of scenarios and examples with a title [ISSUE](https://github.com/Blodwynn/.feature-file-syntax-highlight-Cucumber-/issues/5)
+- adding hightlight of `Rule` keyword -- thanks to [BerhorShadowbuckle](https://github.com/BerhorShadowbuckle)
