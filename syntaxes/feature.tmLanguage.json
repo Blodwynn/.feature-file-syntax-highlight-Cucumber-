@@ -45,7 +45,7 @@
 				},
 				{
 					"name": "support.function",
-					"match": "(Scenario( Outline| Template)?|Feature|Example|Background)"
+					"match": "(Scenario( Outline| Template)?|Feature|Example|Background|Rule)"
 				},
 				{
 					"name": "support.class",
