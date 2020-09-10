@@ -24,20 +24,31 @@
     },
     "icon": "images/cucumber.png",
     "contributes": {
-        "languages": [{
-            "id": "feature",
-            "aliases": ["feature", "feature"],
-            "extensions": [".feature"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "feature",
-            "scopeName": "source.feature",
-            "path": "./syntaxes/feature.tmLanguage.json"
-        }],
-        "snippets": [{
-            "language": "feature",
-            "path": "./snippets/feature.json"
-        }]
+        "languages": [
+            {
+                "id": "feature",
+                "aliases": [
+                    "feature",
+                    "feature"
+                ],
+                "extensions": [
+                    ".feature"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "feature",
+                "scopeName": "source.feature",
+                "path": "./syntaxes/feature.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "feature",
+                "path": "./snippets/feature.json"
+            }
+        ]
     }
 }

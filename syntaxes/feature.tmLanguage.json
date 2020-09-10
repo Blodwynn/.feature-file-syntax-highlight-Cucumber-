@@ -27,11 +27,17 @@
 					"patterns": [
 						{
 							"name": "variable.language",
-							"begin": "(:)\\s*\\n",
+							"begin": "(:)([^\\n]*)?\\n",
 							"end": "\\n",
 							"beginCaptures": {
 								"0": {
-									"name": "support.function"
+									"name": "variable.language"
+								},
+								"1": {
+									"name": "support.function.git-rebase"
+								},
+								"2": {
+									"name": "support.function.git-rebase"
 								}
 							}
 						}
